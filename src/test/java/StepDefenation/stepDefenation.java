@@ -29,6 +29,7 @@ public class stepDefenation extends Utils{
 	public void add_Place_Payload_with(String name, String language, String address) throws IOException {
 	    // Write code here that turns the phrase above into concrete actions
 		System.out.println("Kumar");
+		System.out.println("Kumar1");
 	   
 	   res = given().spec(requestSpecification())
 			 .body(bu.payload(name, language, address));
