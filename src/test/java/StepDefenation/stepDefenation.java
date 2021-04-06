@@ -30,6 +30,7 @@ public class stepDefenation extends Utils{
 	    // Write code here that turns the phrase above into concrete actions
 		System.out.println("Kumar");
 		System.out.println("Kumar1");
+		System.out.println("Kumar1");
 	   
 	   res = given().spec(requestSpecification())
 			 .body(bu.payload(name, language, address));
