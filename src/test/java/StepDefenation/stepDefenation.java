@@ -32,6 +32,7 @@ public class stepDefenation extends Utils{
 		System.out.println("Kumar1");
 		System.out.println("Kumar1");
 		System.out.println("Kumar3");
+		
 	   
 	   res = given().spec(requestSpecification())
 			 .body(bu.payload(name, language, address));
