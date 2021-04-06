@@ -28,6 +28,7 @@ public class stepDefenation extends Utils{
 	@Given("Add Place Payload with {string} {string} {string}")
 	public void add_Place_Payload_with(String name, String language, String address) throws IOException {
 	    // Write code here that turns the phrase above into concrete actions
+		System.out.println("Kumar");
 	   
 	   res = given().spec(requestSpecification())
 			 .body(bu.payload(name, language, address));
